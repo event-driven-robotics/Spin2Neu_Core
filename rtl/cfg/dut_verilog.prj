@@ -1,0 +1,10 @@
+verilog   xil_defaultlib   ../spinn_aer2_if/hdl/in_mapper.v
+verilog   xil_defaultlib   ../spinn_aer2_if/hdl/out_mapper.v
+verilog   xil_defaultlib   ../spinn_aer2_if/hdl/spinn_driver.v
+verilog   xil_defaultlib   ../spinn_aer2_if/hdl/spinn_neu_if.v
+verilog   xil_defaultlib   ../spinn_aer2_if/hdl/spinn_receiver.v
+verilog   xil_defaultlib   ../spinn_aer2_if/hdl/synchronizer.v
+
+# compile glbl module
+verilog   xil_defaultlib   ../glbl.v
+

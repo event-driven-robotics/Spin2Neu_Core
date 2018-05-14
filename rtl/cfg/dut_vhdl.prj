@@ -1,0 +1,12 @@
+vhdl      xil_defaultlib   ../neuelab/hdl/AEXSsequencerRR.vhd
+vhdl      xil_defaultlib   ../neuelab/hdl/neuelab_pkg.vhd
+vhdl      xil_defaultlib   ../neuelab/hdl/CoreMonSeqRR.vhd
+vhdl      xil_defaultlib   ../neuelab/hdl/MonitorRR.vhd
+vhdl      xil_defaultlib   ../neuelab/hdl/TimestampWrapDetector.vhd
+vhdl      xil_defaultlib   ../axi_if/hdl/spinn_axilite_if.vhd
+vhdl      xil_defaultlib   ../axi_if/hdl/spinn_axistream.vhd
+vhdl      xil_defaultlib   ../neuelab/hdl/timestamp.vhd
+vhdl      xil_defaultlib   ../top/hdl/spinn2Neu_pkg.vhd
+vhdl      xil_defaultlib   ../top/hdl/spinn2Neu_core.vhd
+
+

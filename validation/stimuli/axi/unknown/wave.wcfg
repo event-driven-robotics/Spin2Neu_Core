@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi4litemasterbfm_pkg" />
+            <top_module name="glbl" />
+            <top_module name="necomponents_pkg" />
+            <top_module name="spinncomponents_pkg" />
+            <top_module name="tbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="200000000fs"></ZoomStartTime>
+      <ZoomEndTime time="831923808fs"></ZoomEndTime>
+      <Cursor1Time time="200000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="211"></NameColumnWidth>
+      <ValueColumnWidth column_width="215"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/nRst">
+      <obj_property name="ElementShortName">nRst</obj_property>
+      <obj_property name="ObjectShortName">nRst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/Clk_Spinn">
+      <obj_property name="ElementShortName">Clk_Spinn</obj_property>
+      <obj_property name="ObjectShortName">Clk_Spinn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/Clk_Core">
+      <obj_property name="ElementShortName">Clk_Core</obj_property>
+      <obj_property name="ObjectShortName">Clk_Core</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/Interrupt_o">
+      <obj_property name="ElementShortName">Interrupt_o</obj_property>
+      <obj_property name="ObjectShortName">Interrupt_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/LpbkDefault_i">
+      <obj_property name="ElementShortName">LpbkDefault_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">LpbkDefault_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/data_2of7_from_spinnaker">
+      <obj_property name="ElementShortName">data_2of7_from_spinnaker[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_2of7_from_spinnaker[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/ack_to_spinnaker">
+      <obj_property name="ElementShortName">ack_to_spinnaker</obj_property>
+      <obj_property name="ObjectShortName">ack_to_spinnaker</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/data_2of7_to_spinnaker">
+      <obj_property name="ElementShortName">data_2of7_to_spinnaker[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_2of7_to_spinnaker[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/ack_from_spinnaker">
+      <obj_property name="ElementShortName">ack_from_spinnaker</obj_property>
+      <obj_property name="ObjectShortName">ack_from_spinnaker</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/dbg_dt_2of7_from_spin">
+      <obj_property name="ElementShortName">dbg_dt_2of7_from_spin[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_dt_2of7_from_spin[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_ack_to_spin">
+      <obj_property name="ElementShortName">dbg_ack_to_spin</obj_property>
+      <obj_property name="ObjectShortName">dbg_ack_to_spin</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/dbg_dt_2of7_to_spin">
+      <obj_property name="ElementShortName">dbg_dt_2of7_to_spin[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_dt_2of7_to_spin[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_ack_from_spin">
+      <obj_property name="ElementShortName">dbg_ack_from_spin</obj_property>
+      <obj_property name="ObjectShortName">dbg_ack_from_spin</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/dbg_txSeqData">
+      <obj_property name="ElementShortName">dbg_txSeqData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_txSeqData[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_txSeqSrcRdy">
+      <obj_property name="ElementShortName">dbg_txSeqSrcRdy</obj_property>
+      <obj_property name="ObjectShortName">dbg_txSeqSrcRdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_txSeqDstRdy">
+      <obj_property name="ElementShortName">dbg_txSeqDstRdy</obj_property>
+      <obj_property name="ObjectShortName">dbg_txSeqDstRdy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/dbg_rxMonData">
+      <obj_property name="ElementShortName">dbg_rxMonData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_rxMonData[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_rxMonSrcRdy">
+      <obj_property name="ElementShortName">dbg_rxMonSrcRdy</obj_property>
+      <obj_property name="ObjectShortName">dbg_rxMonSrcRdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_rxMonDstRdy">
+      <obj_property name="ElementShortName">dbg_rxMonDstRdy</obj_property>
+      <obj_property name="ObjectShortName">dbg_rxMonDstRdy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/dbg_rxstate">
+      <obj_property name="ElementShortName">dbg_rxstate[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_rxstate[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/dbg_txstate">
+      <obj_property name="ElementShortName">dbg_txstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_txstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_ipkt_vld">
+      <obj_property name="ElementShortName">dbg_ipkt_vld</obj_property>
+      <obj_property name="ObjectShortName">dbg_ipkt_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_ipkt_rdy">
+      <obj_property name="ElementShortName">dbg_ipkt_rdy</obj_property>
+      <obj_property name="ObjectShortName">dbg_ipkt_rdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_opkt_vld">
+      <obj_property name="ElementShortName">dbg_opkt_vld</obj_property>
+      <obj_property name="ObjectShortName">dbg_opkt_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/dbg_opkt_rdy">
+      <obj_property name="ElementShortName">dbg_opkt_rdy</obj_property>
+      <obj_property name="ObjectShortName">dbg_opkt_rdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_ACLK">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_ARESETN">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_AWADDR">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[11:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_AWVALID">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_WDATA">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_WSTRB">
+      <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_WVALID">
+      <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_BREADY">
+      <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_ARADDR">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[11:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_ARVALID">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_RREADY">
+      <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_ARREADY">
+      <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_RDATA">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_RRESP">
+      <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_RVALID">
+      <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_WREADY">
+      <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_BRESP">
+      <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_BVALID">
+      <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXI_AWREADY">
+      <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXIS_TREADY">
+      <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/S_AXIS_TDATA">
+      <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXIS_TLAST">
+      <obj_property name="ElementShortName">S_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/S_AXIS_TVALID">
+      <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/M_AXIS_TVALID">
+      <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tbench/inst_spinn2Neu_core/M_AXIS_TDATA">
+      <obj_property name="ElementShortName">M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/M_AXIS_TLAST">
+      <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tbench/inst_spinn2Neu_core/M_AXIS_TREADY">
+      <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+   </wvobject>
+</wave_config>
