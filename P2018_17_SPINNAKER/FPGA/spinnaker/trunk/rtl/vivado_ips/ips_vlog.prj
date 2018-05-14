@@ -1,0 +1,6 @@
+# compile vhdl design source files
+verilog xil_defaultlib          "../vivado_ips/Infifo_64_1024_32/hdl/fifo_generator_v13_2_rfs.v"
+verilog xil_defaultlib          "../vivado_ips/Infifo_64_1024_32/simulation/fifo_generator_vlog_beh.v"
+verilog xil_defaultlib          "../vivado_ips/Infifo_64_1024_32/sim/Infifo_64_1024_32.v"
+verilog xil_defaultlib          "../vivado_ips/Outfifo_32_2048_64/sim/Outfifo_32_2048_64.v"
+

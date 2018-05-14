@@ -1,0 +1,4 @@
+vhdl  xil_defaultlib  ../misc/AXI4LiteMasterBFM_pkg.vhd
+vhdl  xil_defaultlib  ../misc/axi4lite_bfm_v00.vhd
+vhdl  xil_defaultlib  ../misc/Pll.vhd
+vhdl  xil_defaultlib  ../top/tbench.vhd
