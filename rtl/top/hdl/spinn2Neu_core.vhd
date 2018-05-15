@@ -24,7 +24,7 @@ entity Spinn2Neu_core is
         C_NUM_MEM                      : integer              := 1;
         C_SLV_AWIDTH                   : integer              := 32;
         C_SLV_DWIDTH                   : integer              := 32;
-        C_DEBUG                        : integer              :=0
+        C_DEBUG                        : boolean              := False
         -- DO NOT EDIT ABOVE THIS LINE ---------------------
     );
     port (
