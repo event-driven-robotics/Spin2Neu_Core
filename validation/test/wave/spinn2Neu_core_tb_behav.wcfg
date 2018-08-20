@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spinn2Neu_core_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi4litemasterbfm_pkg" />
+            <top_module name="glbl" />
+            <top_module name="necomponents_pkg" />
+            <top_module name="spinn2Neu_core_tb" />
+            <top_module name="spinncomponents_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1857000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1325575100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="410"></NameColumnWidth>
+      <ValueColumnWidth column_width="249"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+      <marker time="1079655836000" label="" />
+      <marker time="18140625000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/nRst" type="logic">
+      <obj_property name="ElementShortName">nRst</obj_property>
+      <obj_property name="ObjectShortName">nRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/Clk_Spinn" type="logic">
+      <obj_property name="ElementShortName">Clk_Spinn</obj_property>
+      <obj_property name="ObjectShortName">Clk_Spinn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/Clk_Core" type="logic">
+      <obj_property name="ElementShortName">Clk_Core</obj_property>
+      <obj_property name="ObjectShortName">Clk_Core</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/Interrupt_o" type="logic">
+      <obj_property name="ElementShortName">Interrupt_o</obj_property>
+      <obj_property name="ObjectShortName">Interrupt_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/LpbkDefault_i" type="array">
+      <obj_property name="ElementShortName">LpbkDefault_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">LpbkDefault_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group286" type="group">
+      <obj_property name="label">SpiNNlink</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/data_2of7_from_spinnaker" type="array">
+         <obj_property name="ElementShortName">data_2of7_from_spinnaker[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_2of7_from_spinnaker[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/ack_to_spinnaker" type="logic">
+         <obj_property name="ElementShortName">ack_to_spinnaker</obj_property>
+         <obj_property name="ObjectShortName">ack_to_spinnaker</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/data_2of7_to_spinnaker" type="array">
+         <obj_property name="ElementShortName">data_2of7_to_spinnaker[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_2of7_to_spinnaker[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/ack_from_spinnaker" type="logic">
+         <obj_property name="ElementShortName">ack_from_spinnaker</obj_property>
+         <obj_property name="ObjectShortName">ack_from_spinnaker</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group285" type="group">
+      <obj_property name="label">AXI Lite</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[11:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[11:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group273" type="group">
+      <obj_property name="label">Streaming</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/M_AXIS_TDATA" type="array">
+         <obj_property name="ElementShortName">M_AXIS_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/M_AXIS_TVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/M_AXIS_TLAST" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/M_AXIS_TREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXIS_TDATA" type="array">
+         <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXIS_TVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXIS_TREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/S_AXIS_TLAST" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_TLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/u_axistream_if/EnableAxistreamIf_i" type="logic">
+         <obj_property name="ElementShortName">EnableAxistreamIf_i</obj_property>
+         <obj_property name="ObjectShortName">EnableAxistreamIf_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/u_axistream_if/i_enableRearm" type="logic">
+         <obj_property name="ElementShortName">i_enableRearm</obj_property>
+         <obj_property name="ObjectShortName">i_enableRearm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spinn2Neu_core_tb/SPINN2NEU_CORE_i/u_axistream_if/i_enBurst" type="logic">
+         <obj_property name="ElementShortName">i_enBurst</obj_property>
+         <obj_property name="ObjectShortName">i_enBurst</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
